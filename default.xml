@@ -5,17 +5,17 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
-  <project path="android" name="K900-MM/android" remote="github" revision="refs/heads/cm-13.0" />
+  <project path="android" name="K900-MM/android" remote="github" revision="refs/heads/master" />
 
   <!-- lenovo k900 specific code -->
-  <project path="device/lenovo/redhookbay-common" name="K900-MM/android_device_lenovo_redhookbay-common" remote="github" revision="refs/heads/marshmallow" />
-  <project path="device/lenovo/redhookbay" name="K900-MM/android_device_lenovo_redhookbay" remote="github" revision="refs/heads/marshmallow" />
-  <project path="vendor/lenovo/redhookbay-common" name="K900-MM/android_vendor_lenovo_redhookbay-common" remote="github" revision="refs/heads/marshmallow" />
-  <project path="vendor/lenovo/redhookbay" name="K900-MM/android_vendor_lenovo_redhookbay" remote="github" revision="refs/heads/marshmallow" />
+  <project path="device/lenovo/redhookbay-common" name="K900-MM/android_device_lenovo_redhookbay-common" remote="github" revision="refs/heads/master" />
+  <project path="device/lenovo/redhookbay" name="K900-MM/android_device_lenovo_redhookbay" remote="github" revision="refs/heads/master" />
+  <project path="vendor/lenovo/redhookbay-common" name="K900-MM/android_vendor_lenovo_redhookbay-common" remote="github" revision="refs/heads/master" />
+  <project path="vendor/lenovo/redhookbay" name="K900-MM/android_vendor_lenovo_redhookbay" remote="github" revision="refs/heads/master" />
   <project path="kernel/lenovo/redhookbay" name="K900-MM/android_kernel_lenovo_redhookbay" remote="github" revision="refs/heads/master">
     <copyfile src="KernelMakefile" dest="KernelMakefile" />
   </project>
 
   <!-- Intel specific code -->
-  <project path="hardware/intel" name="K900-MM/android_hardware_intel" groups="intel" remote="github" revision="refs/heads/marshmallow" />
+  <project path="hardware/intel" name="K900-MM/android_hardware_intel" groups="intel" remote="github" revision="refs/heads/master" />
 </manifest>
